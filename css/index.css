@@ -37,19 +37,20 @@ body {
 .header {
   width: 100%;
   height: var(--headerHeight);
-  position: absolute;
+  position: fixed;
+  background-color: var(--blackTextColor);
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   z-index: 100;
 }
 
 .header-content {
   width: 70%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
 }
 
 .nav-menu__list {
